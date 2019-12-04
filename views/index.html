@@ -3,6 +3,7 @@
 
 <head>
 
+<div style="background-image: url('https://cdn.pixabay.com/photo/2017/03/01/09/11/shop-2107911_960_720.png');">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -12,7 +13,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/PaddysCafeStyles.css" rel="stylesheet">
+  <link href="css/shop.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Paddy's Cafe</a>
+      <a class="navbar-brand" href="#">Parnel Shop</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -49,16 +50,37 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="mt-5">Welcome to Paddy's Cafe</h1>
-        <p class="lead">Select your entrees from the menu below.</p>
+        <h1 class="mt-5">Welcome to Parnel Shop</h1>
+        <p class="lead">Select your items.</p>
       </div>
-      <div id="results" class="col-lg-12"></div>
+        <div id="results" class="col-lg-8 text-center order-3"></div>
+        <div class="col-lg-4 text-center order-2">
+            <form enctype="application/json" action="/post/json" method="post">
+                <div class="form-group">
+                    <select class="form-control" name="sec_n">
+                        <option value="0">Drinks</option>
+                        <option value="1">Higiene</option>
+                        <option value="2">electronics</option>
+                        <option value="3">sweets</option>
+                        <option value="4">food</option>
+                        <option value="5">book</option>
+                        <option value="6">cleaning</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="item" placeholder="Item">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="price" placeholder="Price">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
     </div>
   </div>
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">&copy; 2019</span>
+        <span class="text-muted">&copy; 2020</span>
       </div>
     </footer>
 

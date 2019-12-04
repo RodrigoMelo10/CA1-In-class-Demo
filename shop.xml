@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="shop.xsl"?>
+<cafemenu>
+    <section name="Drinks">
+			<entree>
+				<item>Water</item>
+				<price>1.00</price>
+			</entree>
+			<entree>
+				<item>Coca</item>
+				<price>1.20</price>]
+			</entree>
+			<entree>
+	            <item>Sprite</item>
+				<price>1.10</price>]
+			</entree>
+			<entree>
+	            <item>Fanta</item>
+				<price>1.10</price>]
+			</entree>
+			<entree>
+	            <item> Orange Juice</item>
+				<price>2.00</price>]
+			</entree>
+		</section>	
+		<section name="Hygiene">
+			<entree>
+	            <item>Tooth past</item>
+				<price>1.50</price>
+			</entree>
+			<entree>
+	             <item>Tooth brush</item>
+				<price>1.00</price>
+			</entree>
+			<entree>
+	            <item>Shampoo</item>
+				<price>1.50</price>
+			</entree>
+			<entree>
+	            <item>Body wash</item>
+				<price>2.00</price>
+			</entree>
+			<entree>
+			    <item>Shaving cream</item>
+				<price>2.75</price>
+			</entree>
+			<entree>
+			    <item>Hand wash</item>
+				<price>2.75</price>
+			</entree>
+			<entree>
+				
+			    <item>Dental floss </item>
+				<price>2.00</price>
+			</entree>
+			<entree>
+				
+				<item>Shaver</item>
+				<price>1.25</price>
+			</entree>
+					
+		</section>
+		<section name="electronics">
+			<entree>
+	            <item>Radio</item>
+				<price>10.00</price>
+			</entree>
+			<entree>
+	             <item>Headphones</item>
+				<price>5.00</price>
+			</entree>
+			<entree>
+	            <item>Smarthphone</item>
+				<price>200.00</price>
+			</entree>
+			<entree>
+	            <item>Keyboard</item>
+				<price>30.00</price>
+			</entree>
+			   
+			<entree>
+	            <item>Television</item>
+				<price>150.00</price>
+
+			</entree>
+		</section>
+		<section name="sweets">
+
+	        <entree>
+	            <item>Honey</item>
+				<price>2.50</price>
+			</entree>
+			<entree>
+	             <item>Jelly</item>
+				<price>2.00</price>
+			</entree>
+			<entree>
+	            <item>Condensed milk</item>
+				<price>2.75</price>
+			</entree>
+			<entree>
+	            <item>Chocolate</item>
+				<price>1.00</price>
+			</entree>
+			<entree>
+			    <item>Biscuits</item>
+				<price>0.75</price>
+			</entree>
+        </section>
+
+			
+	
+		<section name="food">
+			<entree>
+	            <item>Rice</item>
+				<price>0.70</price>
+			</entree>
+			<entree>
+	             <item>Pasta</item>
+				<price>0.80</price>
+			</entree>
+			<entree>
+	            <item>Corn</item>
+				<price>0.50</price>
+			</entree>
+			<entree>
+	            <item>beans</item>
+				<price>0.45</price>
+			</entree>
+			<entree>
+			    <item>Chicken</item>
+				<price>5.00</price>
+			</entree>
+	</section>
+		<section name="book">
+			<entree>
+	            <item>The Boys in the Boat</item>
+				<price>50.00</price>
+			</entree>
+			<entree>
+	             <item>The Odyssey</item>
+				<price>35.00</price>
+			</entree>
+			<entree>
+	            <item>Circle of Life</item>
+				<price>40.00</price>
+			</entree>
+			<entree>
+	            <item>Animal Farm</item>
+				<price>22.00</price>
+			</entree>
+			<entree>
+			    <item>Little Women</item>
+				<price>15.00</price>
+            </entree>
+     </section>
+		<section name="Cleaning">
+			<entree>
+	            <item>Detergent liquid</item>
+				<price>1.50</price>
+			</entree>
+			<entree>
+	             <item>Washing powder</item>
+				<price>3.50</price>
+			</entree>
+			<entree>
+	            <item>Bleach</item>
+				<price>0.85</price>
+			</entree>
+			<entree>
+	            <item>Softener</item>
+				<price>3.00</price>
+
+			</entree>
+			<entree>
+			    <item>Sponge</item>
+				<price>1.50</price>
+			</entree>
+
+
+		</section>
+</cafemenu>
