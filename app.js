@@ -4,12 +4,13 @@ var http = require('http'),
     fs = require('fs'),
     xmlParse = require('xslt-processor').xmlParse,
     xsltProcess = require('xslt-processor').xsltProcess;
-
+    xml2js = require('xml2js');
 var router = express();
 var server = http.createServer(router);
 
 router.use(express.static(path.resolve(__dirname, 'views')));
-
+router.use(express.urlencoded({extended: true}));
+router.use(express.json());
 
 // Function to read in XML file and convert it to JSON
 function xmlFileToJs(filename, cb) {
@@ -59,7 +60,7 @@ router.post('/post/json', function(req, res) {
     // Function to read in XML file, convert it to JSON, add a new object and write back to XML file
     xmlFileToJs('shop.xml', function(err, result) {
       if (err) throw (err);
-      result.cafemenu.section[obj.sec_n].entree.push({'item': obj.item, 'price': obj.price});
+      result.shopmenu.section[obj.sec_n].entree.push({'item': obj.item, 'price': obj.price});
       console.log(result);
       jsToXmlFile('shop.xml', result, function(err) {
         if (err) console.log(err);
