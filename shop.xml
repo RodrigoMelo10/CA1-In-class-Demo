@@ -1,46 +1,121 @@
-<!--All the code belongs to Mikhail https://github.com/mikhail-cct/CA1-In-class-Demo.git -->
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <shopmenu>
   <section name="Drinks">
     <entree>
-      <item>Water</item>
-      <price>1.00</price>
-    </entree>
-    <entree>
       
-				
-				]
-			
+      
+      
+      
+      
+      
+            ]
+            
+            
+        
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
       <item>Coca</item>
       <price>1.20</price>
     </entree>
     <entree>
       
-	            
-				]
-			
+      
+      
+      
+      
+      
+            ]
+            
+            
+        
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
       <item>Sprite</item>
       <price>1.10</price>
     </entree>
     <entree>
       
-	            
-				]
-			
+      
+      
+      
+      
+      
+            ]
+            
+            
+        
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
       <item>Fanta</item>
       <price>1.10</price>
     </entree>
     <entree>
       
-	            
-				]
-			
+      
+      
+      
+      
+      
+            ]
+            
+            
+        
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
       <item> Orange Juice</item>
       <price>2.00</price>
-    </entree>
-    <entree>
-      <item>wine</item>
-      <price>11.00</price>
     </entree>
   </section>
   <section name="Hygiene">

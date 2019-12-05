@@ -1,4 +1,4 @@
-var http = require('http'),<!--All the code belongs to Mikhail https://github.com/mikhail-cct/CA1-In-class-Demo.git -->
+var http = require('http'),//All the code belongs to Mikhail https://github.com/mikhail-cct/CA1-In-class-Demo.git -->
     path = require('path'),
     express = require('express'),
     fs = require('fs'),
@@ -42,7 +42,7 @@ router.get('/get/html', function(req, res) {
 
     var xml = fs.readFileSync('shop.xml', 'utf8');
     var xsl = fs.readFileSync('shop.xsl', 'utf8');
-    console.log(xml);
+    //console.log(xml);
     var doc = xmlParse(xml);
     var stylesheet = xmlParse(xsl);
 
@@ -78,14 +78,14 @@ router.post('/post/json', function(req, res) {
 });
 // POST request to add to JSON & XML files
 router.post('/post/delete', function(req, res) {
-
+    console.log("deleting");
   // Function to read in a JSON file, add to it & convert to XML
   function deleteJSON(obj) {
     // Function to read in XML file, convert it to JSON, delete the required object and write back to XML file
     xmlFileToJs('shop.xml', function(err, result) {
       if (err) throw (err);
       //This is where we delete the object based on the position of the section and position of the entree, as being passed on from index.html
-      delete result.cafemenu.section[obj.section].entree[obj.entree];
+      delete result.shopmenu.section[obj.section].entree[obj.entree];
       //This is where we convert from JSON and write back our XML file
       jsToXmlFile('shop.xml', result, function(err) {
         if (err) console.log(err);
